@@ -32,7 +32,8 @@ namespace ConsoleApp
         {
             return HttpPolicyExtensions
                 .HandleTransientHttpError()
-                .OrResult(msg => msg.StatusCode == HttpStatusCode.InternalServerError)
+                .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+                .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.Unauthorized)
                 .Or<TimeoutRejectedException>()
                 .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(1, retryAttempt)));
         }

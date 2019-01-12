@@ -30,7 +30,7 @@ namespace ConsoleApp
             await DoErrorAsync(401, 2);
             await DoErrorAsync(404, 2);
 
-            //Esse nunca irá completar, pois o número de tentativas com sucesso é 10. E cofiguramos no máximo 3 retentativas.
+            //Esse nunca irï¿½ completar, pois o nï¿½mero de tentativas com sucesso ï¿½ 10. E cofiguramos no mï¿½ximo 3 retentativas.
             await DoErrorAsync(500, 10);
 
             // return Task.CompletedTask;
@@ -51,7 +51,7 @@ namespace ConsoleApp
             var apiService = _provider.GetService<ApiService>();
 
             _logger.LogInformation("Realizando chamada respondendo timeout de 10 segundos e respondendo com sucesso na 2 tentativa...");
-            await apiService.TimeoutAsync(10, 2);
+            await apiService.TimeoutAsync(15, 2);
             _logger.LogInformation("Chamado respondendo timeout... OK");
 
         }

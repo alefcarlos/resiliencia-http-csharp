@@ -11,13 +11,12 @@ namespace ConsoleApp
         {
             _client = client;
             _client.DefaultRequestHeaders.Accept.Clear();
-            _client.BaseAddress = new System.Uri("https://localhost:44354/api/");
+            _client.BaseAddress = new System.Uri("https://localhost:5001/api/");
         }
 
         public async Task TimeoutAsync(int timeoutSeconds, int retrySuccess)
         {
-            //_client.Timeout = TimeSpan.FromSeconds(timeoutSeconds);
-            var response = await _client.GetAsync($"example/timeout/{timeoutSeconds + 5}/complete/{retrySuccess}");
+            var response = await _client.GetAsync($"example/timeout/{timeoutSeconds}/complete/{retrySuccess}");
         }
 
         public async Task ErrorAsync(int errorCode, int retrySuccess)
