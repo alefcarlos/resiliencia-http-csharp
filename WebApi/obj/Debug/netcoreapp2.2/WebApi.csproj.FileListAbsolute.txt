@@ -1,0 +1,14 @@
+C:\repos\resiliencia-http-csharp\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+C:\repos\resiliencia-http-csharp\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+C:\repos\resiliencia-http-csharp\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+C:\repos\resiliencia-http-csharp\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+C:\repos\resiliencia-http-csharp\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+C:\repos\resiliencia-http-csharp\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
