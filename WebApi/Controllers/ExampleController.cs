@@ -55,5 +55,15 @@ namespace WebApi.Controllers
         {
             return Ok();
         }
+
+
+        // POST api/example/clean
+        [HttpPost("clean")]
+        public IActionResult PostClean()
+        {
+            returnErrorSuccess = 0;
+            returnTimeoutSuccess = 0;
+            return Ok();
+        }
     }
 }

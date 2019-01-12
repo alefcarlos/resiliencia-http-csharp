@@ -28,5 +28,10 @@ namespace ConsoleApp
         {
             var response = await _client.GetAsync("example/success/");
         }
+
+        public async Task CleanAsync()
+        {
+            var response = await _client.PostAsync("example/clean/", null);
+        }
     }
 }

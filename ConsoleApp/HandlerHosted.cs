@@ -33,6 +33,8 @@ namespace ConsoleApp
             //Esse nunca ir� completar, pois o n�mero de tentativas com sucesso � 10. E cofiguramos no m�ximo 3 retentativas.
             await DoErrorAsync(500, 10);
 
+            var apiService = _provider.GetService<ApiService>();
+            await apiService.CleanAsync();
             // return Task.CompletedTask;
         }
 
