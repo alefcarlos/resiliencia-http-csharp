@@ -1,4 +1,4 @@
-Projeto de referência do artigo
+Projeto de referência do artigo [Criando chamadas HTTP resilientes utilizando Polly com HttpClient Factory](https://medium.com/@alef.carlos/criando-chamadas-http-resilientes-utilizando-polly-com-httpclient-factory-eafb2644a244)
 
 
 # Publicando no Heroku
@@ -14,7 +14,6 @@ heroku login
 Após realizada processo de login, devemos gerar a imagem Docker e então  realizar o push da imagem para o `Container Registry do Heroku
 
 ```bash
-cd Clinfy
 heroku container:push web -a simulacao-erros-api
 ```
 
