@@ -11,7 +11,7 @@ namespace ConsoleApp
         {
             _client = client;
             _client.DefaultRequestHeaders.Accept.Clear();
-            _client.BaseAddress = new System.Uri("https://localhost:5001/api/");
+            _client.BaseAddress = new System.Uri("https://simulacao-erros-api.herokuapp.com/api/");
         }
 
         public async Task TimeoutAsync(int timeoutSeconds, int retrySuccess)
